@@ -37,6 +37,8 @@ body {
 button {
     padding: 8px 32px;
     border-radius: 8px;
+    color: #F9faf8;
+    font-weight: bold;
 }
 
 button.signup {
@@ -151,6 +153,45 @@ button.signup {
     font-size: 24px;
     font-weight: bolder;
     align-self: flex-end;
+}
+
+/*section four styling*/
+
+.body3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.group1 .header3 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.group1 .subtext {
+    font-size: 20px;
+}
+
+.container {
+    background: #3882f6;
+    border-radius: 10px;
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex: 1 1 auto;
+}
+
+button.signup2 {
+    font-size: 18px;
+    background: #3882f6;
+    border: 2px solid white;
 }
 
 /*styling for links and lists*/
